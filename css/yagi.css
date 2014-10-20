@@ -1,0 +1,54 @@
+* {
+    font-family: Helvetica, Verdana, Arial;
+}
+
+body {
+    padding: 0px;
+    margin:  0px;
+}
+
+#got_what {
+    display:    none;
+    margin:     0px auto;
+    width:      800px;
+    text-align: center;
+    padding:     20px 0px;
+    font-size:   50px;
+    font-weight: bold;
+}
+
+#got_what input {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#got_what #what {
+    width: 200px;
+}
+
+#got_what #who {
+    width: 100px;
+}
+
+#got_where {
+    display: none;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#got_it {
+    display: none;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#something_went_wrong {
+    display: none;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
