@@ -4,7 +4,7 @@ $(window).load(function() {
     if (url.match(/^.+/i)) {
 
         try {
-            var options = LZString.decompressFromBase64(url);
+            var options = fromCode(url);
 
             $('#the_what').text(options.a);
             $('#the_who').text(options.b);
@@ -34,6 +34,14 @@ $(window).load(function() {
             'b': who
         });
 
-        return LZString.compressToBase64(json);
+        var initCode = LZString.compressToBase64(json);
+
+        return initCode.replace(/=+$/, '');
+    }
+
+    function fromCode(code) {
+        var json = LZString.decompressFromBase64(code);
+
+        return window.JSON.parse(json);
     }
 });
