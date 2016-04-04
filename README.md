@@ -1,6 +1,6 @@
-## youaintgot.it
+## youaintgot.sqmk.com
 
-This is the source code for the website http://youaintgot.it.
+This is the source code for the website http://youaintgot.sqmk.com.
 
 ## What is this site for?
 
