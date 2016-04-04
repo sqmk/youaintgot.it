@@ -1,4 +1,4 @@
-## youaintgot.sqmk.com
+## youaintgotit.sqmk.com
 
 This is the source code for the website http://youaintgotit.sqmk.com.
 
